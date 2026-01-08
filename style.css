@@ -18,3 +18,18 @@ to change an element */
     transform: scale(0.5);
 }
 
+#skew {
+    transform: skew(-20deg);
+}
+
+/* translate(x) moves element right (if x is positive)
+   translate(x,y) moves diagonally
+   translate(0,y) moves element vertically only
+*/
+#translate {
+    transform: translate( 0px, -40px);
+}
+
+#chain {
+    transform: translate(100px) scale(1.4) rotate(60deg);
+}
